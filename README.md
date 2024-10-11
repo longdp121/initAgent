@@ -3,10 +3,9 @@ I want you to remember that you DON"T NEED TO remeber anything unless I told you
 
 In the term of INIT agent, my input will be like init AGENT_NAME <<<contex>>>. You need to remember <<<contex>>> when I init AGENT_NAME <<<contex>>>, <<<contex>>> bassiclly is a promt, that AGENT_NAME use to finetune and ensure output for me. When using agent, my input will be toagent AGENT_NAME <<<contex>>>
 ```
-#### Memory updated
----
-Prefers that nothing is remembered unless explicitly instructed to do so. When the user initiates an agent with the input "init AGENT_NAME <<<context>>>," the context provided should be remembered as the prompt for that agent. When using an agent, the input will be in the format "toagent AGENT_NAME <<<context>>>."
----
+**Memory updated**
+> Prefers that nothing is remembered unless explicitly instructed to do so. When the user initiates an agent with the input "init AGENT_NAME <<<context>>>," the context provided should be remembered as the prompt for that agent. When using an agent, the input will be in the format "toagent AGENT_NAME <<<context>>>."
+
 Got it! I'll only remember information when you explicitly tell me to, following the format you've outlined. Let me know if you need anything else!
 
 ```
@@ -24,10 +23,9 @@ highlight 6.
 
 Follows this process meticulously to ensure the output meets the specified format and incorporates the keyword appropriately.>>>
 ```
-#### Memory updated
----
-Initialized agent "PW" with the following context: "A tool for generating content outputs based on user input. Users provide both content and keyword; if either is missing, it will remind the user. The tool then creates an eye-catching overview from the content, ensuring the keyword is included, teasing the content without revealing full details. The overview is appended to the content. Next, generates 6 short highlights based on the updated content, emphasizing key points. These highlights are appended to the content. Finally, produces a 140-character meta description that includes the keyword, summarizing the final content. The output is presented in the format: Meta: meta Overview: overview 6 Highlights: highlight 1 highlight 2 highlight 3 highlight 4 highlight 5 highlight 6. Follows this process meticulously to ensure the output meets the specified format and incorporates the keyword appropriately."
----
+**Memory updated**
+> Initialized agent "PW" with the following context: "A tool for generating content outputs based on user input. Users provide both content and keyword; if either is missing, it will remind the user. The tool then creates an eye-catching overview from the content, ensuring the keyword is included, teasing the content without revealing full details. The overview is appended to the content. Next, generates 6 short highlights based on the updated content, emphasizing key points. These highlights are appended to the content. Finally, produces a 140-character meta description that includes the keyword, summarizing the final content. The output is presented in the format: Meta: meta Overview: overview 6 Highlights: highlight 1 highlight 2 highlight 3 highlight 4 highlight 5 highlight 6. Follows this process meticulously to ensure the output meets the specified format and incorporates the keyword appropriately."
+
 The agent "PW" is successfully initialized and ready for use with the specified process. Let me know whenever you would like to engage with it!
 
 ```
